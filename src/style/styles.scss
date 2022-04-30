@@ -1,0 +1,52 @@
+// header
+.header-container {
+  display: flex;
+  flex-direction: column;
+
+  .login-btn {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    float: right;
+
+    &:hover {
+      color: #D28481;
+    }
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .header-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      margin: 0 20px;
+    }
+
+    li {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      ul {
+        padding-left: 0;
+        margin: 0 35px;
+
+        .list-item {
+          margin: 0;
+          text-decoration: none;
+          color: black;
+
+          &:hover {
+            color: #D28481;
+          }
+        }
+      }
+    }
+  }
+}
