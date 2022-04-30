@@ -1,31 +1,22 @@
 // header
-.header-container {
+.header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
 
-  .login-btn {
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
     text-decoration: none;
     color: black;
-    margin: 15px;
-    float: right;
-
-    &:hover {
-      color: #D28481;
-    }
+    margin: 0 20px;
   }
 
-  .header-content {
+  .menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    .header-title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: black;
-      margin: 0 20px;
-    }
 
     li {
       list-style: none;
@@ -37,7 +28,7 @@
         padding-left: 0;
         margin: 0 35px;
 
-        .list-item {
+        .item {
           margin: 0;
           text-decoration: none;
           color: black;

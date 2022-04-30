@@ -2,19 +2,14 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="header-container">
-      <div>
-        <a className="login-btn" href="/login">LOGIN</a>
-      </div>
-      <div className="header-content">
+    <div className="header">
+      <a className="title" href="/">𝗕𝗼𝗼𝗸𝗟𝗼𝗴</a>
+      <div className="menu">
         <li>
-          <ul><a className="list-item" href="/board">board</a></ul>
-          <ul><a className="list-item" href="/photo">photo</a></ul>
-        </li>
-        <a className="header-title" href="/">𝔹𝕠𝕠𝕜𝕃𝕠𝕘</a>
-        <li>
-          <ul><a className="list-item" href="/guestbook">guestbook</a></ul>
-          <ul><a className="list-item" href="/setting">setting</a></ul>
+          <ul><a className="item" href="/board">HOME</a></ul>
+          <ul><a className="item" href="/photo">ABOUT</a></ul>
+          <ul><a className="item" href="/guestbook">BOOKSHELF</a></ul>
+          <ul><a className="item" href="/setting">SETTINGS</a></ul>
         </li>
       </div>
     </div>
