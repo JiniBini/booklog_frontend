@@ -1,5 +1,7 @@
 // header
-.header {
+#header {
+  position: absolute;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,5 +41,30 @@
         }
       }
     }
+  }
+}
+
+// footer
+#footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 29px 0;
+  border-top: 1px solid #ebebeb;
+
+  p {
+    font-size: 0.75em;
+    margin: 0;
+    color: #9b9b9b;
+  }
+}
+
+// MainPage
+#home {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-color: #dbdad0;
   }
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="header">
-      <a className="title" href="/">𝗕𝗼𝗼𝗸𝗟𝗼𝗴</a>
+    <div id="header">
+      <a className="title" href="/">ＢｏｏｋＬｏｇ</a>
       <div className="menu">
         <li>
           <ul><a className="item" href="/board">HOME</a></ul>
